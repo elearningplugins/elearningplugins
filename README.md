@@ -20,7 +20,7 @@ A product for finding newly posted jobs from company career sites / ATS sources,
 
 Built after a layoff. ~74,000 users in the first week; still used by thousands. Public product above — full application source is not open.
 
-### Engineering systems from production work
+## Selected production engineering
 
 At Formant (~3 years; official title QA Manager), the role expanded into hands-on engineering ownership across production software, releases, reliability, customer engineering, and automation:
 
@@ -29,7 +29,7 @@ At Formant (~3 years; official title QA Manager), the role expanded into hands-o
 - **Release engineering** — release candidates, stage validation, ship/no-ship, production deploys, hotfixes, and deploy automation across ~100 release/hotfix events; backend deploy time reduced from ~20–30 minutes to under 7.
 - **Production ownership** — end-to-end incident work (detect → root cause → fix → deploy → validate), including cases where those roles were held in one incident.
 - **Edge-runtime continuity** — kept a Go/Bazel robotics Agent path buildable, testable, and releasable through toolchain, ARM64, Docker, CI, and protobuf/gRPC compatibility work.
-- **Quality systems with engineering judgment** — Playwright, approval-gated visual regression (built a standalone cross-product VRT system from scratch in 2025; ~277 URLs × 3 envs, baseline PRs, human approval as source of truth; optional Claude classification, disableable for cost), plus example + property + mutation testing.
+- **Quality systems with engineering judgment** — Playwright; built a standalone cross-product VRT system from scratch in 2025 (~277 URLs × 3 envs, baseline PRs, human approval as source of truth; optional Claude classification, disableable for cost); example + property + mutation testing.
 - **AI as systems design** — event-driven agent pipelines for Playwright test authoring and repair. Generation funnel: 1,904 requests → 67 PRs → 32 merged. Repair funnel: 15 requests → 11 PRs → 11 merged. Agents did better when bounded by a concrete failure and rich runtime evidence.
 
 I'm reconstructing non-proprietary pieces of the visual-regression architecture for public use. Until that lands as a dedicated public repo, the judgment is visible in the agent skills above.
