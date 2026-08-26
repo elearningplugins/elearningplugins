@@ -16,23 +16,16 @@ Not prompt templates. Executable habits for PR quality, TypeScript testing, prop
 
 ### [Brian's Job Search](https://briansjobsearch.com)
 
-A product for finding newly posted jobs from company career sites / ATS sources, with a focus on freshness and page-aware AI assistance.
+Finds newly posted jobs directly from company career sites and ATS sources, with an emphasis on freshness and contextual AI assistance. Reached ~74,000 users in its first week and continues to serve thousands of job seekers. The product is public; its source is private.
 
-Built after a layoff. ~74,000 users in the first week; still used by thousands. Public product above — full application source is not open.
+## Selected engineering work
 
-## Selected production engineering
+At Formant, my QA Manager title grew into hands-on engineering ownership across production software, releases, reliability, customer engineering, automation, and robotics tooling.
 
-At Formant (~3 years; official title QA Manager), the role expanded into hands-on engineering ownership across production software, releases, reliability, customer engineering, and automation:
-
-- **Shipped production TypeScript / React / API code** — frontend behavior, backend services, visualization, teleoperation UI, SDK/library changes, and build/toolchain work.
-- **Performance across UI ↔ API ↔ data** — diagnosed a stream-picker path paying for ~324k rows / ~29 MB / ~11s, redesigned the query strategy, and brought the expensive lookup to ~0.5s.
-- **Release engineering** — release candidates, stage validation, ship/no-ship, production deploys, hotfixes, and deploy automation across ~100 release/hotfix events; backend deploy time reduced from ~20–30 minutes to under 7.
-- **Production ownership** — end-to-end incident work (detect → root cause → fix → deploy → validate), including cases where those roles were held in one incident.
-- **Edge-runtime continuity** — kept a Go/Bazel robotics Agent path buildable, testable, and releasable through toolchain, ARM64, Docker, CI, and protobuf/gRPC compatibility work.
-- **Quality systems with engineering judgment** — Playwright; built a standalone cross-product VRT system from scratch in 2025 (~277 URLs × 3 envs, baseline PRs, human approval as source of truth; optional Claude classification, disableable for cost); example + property + mutation testing.
-- **AI as systems design** — event-driven agent pipelines for Playwright test authoring and repair. Generation funnel: 1,904 requests → 67 PRs → 32 merged. Repair funnel: 15 requests → 11 PRs → 11 merged. Agents did better when bounded by a concrete failure and rich runtime evidence.
-
-I'm reconstructing non-proprietary pieces of the visual-regression architecture for public use. Until that lands as a dedicated public repo, the judgment is visible in the agent skills above.
+- **Product engineering:** shipped TypeScript/React/API work across frontend, backend, visualization, teleoperation, and shared libraries. One high-cardinality UI/data problem was pulling ~324k rows / 29 MB; redesigning the query path reduced the slow lookup from ~11–16s to ~0.5s.
+- **Production & releases:** owned release readiness and production deployment, built CI/CD and release automation, investigated incidents, and shipped production fixes.
+- **Engineering systems:** built Playwright-based visual regression, property/mutation testing workflows, production monitors, and AI-assisted test authoring/repair systems.
+- **Platform/tooling:** worked across Go/Bazel, ARM64, Docker, GitHub Actions, protobuf/gRPC, Python SDK tooling, and robotics edge-runtime compatibility.
 
 ## Engineering focus
 
