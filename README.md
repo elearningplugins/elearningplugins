@@ -49,26 +49,6 @@ At Formant, my QA Manager title grew into hands-on engineering ownership across 
 - Coding agents, agent skills, orchestration, and human review gates
 - Developer tooling and automation
 
-## How I think about engineering
-
-Interesting problems live between development ↔ quality ↔ releases ↔ production ↔ customers.
-
-The question isn't only whether code works. It's whether we can prove it works, ship it safely, understand when it breaks, and automate the work humans shouldn't have to repeat.
-
-I think about tests the same way. Coverage tells me code executed; it doesn't tell me the tests would catch a defect. I use example tests for behavior we understand, property-based tests to explore cases we didn't think to write by hand, and mutation testing to ask whether the assertions are actually strong enough to notice when the code is wrong.
-
-```mermaid
-flowchart LR
-  Design --> Build
-  Build --> Prove
-  Prove --> Review
-  Review --> Release
-  Release --> Observe
-  Observe --> Fix
-  Fix --> Automate
-  Automate --> Design
-```
-
 ---
 
 Open to senior / staff software engineering roles where ownership spans product code, platforms, releases, production, and AI-assisted engineering practice.
