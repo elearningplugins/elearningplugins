@@ -18,6 +18,18 @@ Not prompt templates. Executable habits for PR quality, TypeScript testing, prop
 
 Finds newly posted jobs directly from company career sites and ATS sources, with an emphasis on freshness and contextual AI assistance. Reached ~74,000 users in its first week and continues to serve thousands of job seekers. The product is public; its source is private.
 
+### [Brian's Job Search MCP](https://github.com/elearningplugins/briansjobsearch-mcp)
+
+A TypeScript MCP server and CLI for finding fresh, still-live jobs directly from 50+ applicant tracking systems. It coordinates incremental background sweeps across a catalog of 180,000+ company boards, with SSRF protection, typed tool schemas, adaptive rate limiting, property and mutation testing, automated catalog refreshes, secret scanning, and release automation.
+
+### [Storyline on Mac](https://github.com/elearningplugins/storyline-on-mac)
+
+A reproducible Wine-based setup that makes the Windows-only Articulate Storyline authoring application usable on Intel macOS. Roughly 35 compatibility patches cover rendering, Retina scaling, native macOS dialogs, launch performance, microphone access, and screen capture.
+
+### [Job Application Autofill](https://github.com/elearningplugins/briansjobsearch-chrome-extension-autofill)
+
+A privacy-first Chrome extension that fills applications across 30+ ATS platforms with a generalized field-scoring engine rather than site-by-site field mappings. Profiles stay local, arbitrary sites cannot trigger automatic fills, and opt-in diagnostics redact applicant data.
+
 ## Selected engineering work
 
 At Formant, my QA Manager title grew into hands-on engineering ownership across production software, releases, reliability, customer engineering, automation, and robotics tooling.
